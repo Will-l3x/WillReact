@@ -1,58 +1,71 @@
 import React from 'react';
-import './Styling/Cards.js';
-import CardItem from './CardItem';
-import bedlinen from '../images/bedlinen.jpg';
-import batht from '../images/bathtowel.jpg';
-import bathr from '../images/bathrobe.jpg';
-import scent from '../images/scents.jpg';
-import wint from '../images/winter.jpg';
+import './Styling/flavor.css';
+
+
 
 function Cards() {
   return (
-    <div className='cards'>
-      <p>
-         Our Premium products got the finest quality cotton that create an exquisite lightweight textile thats both soft and crisp
-         - guranteed to give you a wonderful nights sleep
-        </p>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src={bedlinen}
-              text='Shope Bed Linens'
-              label='Shop Bed Linens'
-              
-            />
-            <CardItem
-              src={batht}
-              text='Shop Bath Towels'
-              label='Shop Bath Towels'
-              
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src={bathr}
-              text='Shop Bathrobes'
-              label='Shop Bathrobes'
-              
-            />
-            <CardItem
-              src={scent}
-              text='Shop Home Fragrances'
-              label='Shop Home Fragrances'
-              
-            />
-            <CardItem
-              src={wint}
-              text='Shop Bed Linen'
-              label='Shop Bed Linen'
-              
-            />
-          </ul>
+            
+    <section className="menu" id="menu">
+    <div className="title">
+      <h2 className="titleText">Product Selection</h2>
+    </div>
+    <div className="content">
+      <div className="box">
+        <div className="imgBx">
+          <img src="images/prod3.jpg" alt />
+        </div>
+        <div className="text">
+          <a href="#" className="btn">Shop Bed Linen</a>
         </div>
       </div>
+      <div className="box">
+        <div className="imgBx">
+          <img src="images/prod1.jpg" alt />
+        </div>
+        <div className="text">
+          <a href="#" className="btn">Shop Bathing Towels</a>
+        </div>
+      </div>
+      <div className="box">
+        <div className="imgBx">
+          <img src="images/prod2.jpg" alt />
+        </div>
+        <div className="text">
+          <a href="#" className="btn">Shop Home Fragrances</a>
+        </div>
+      </div>
+      <div className="box">
+        <div className="imgBx">
+          <img src="images/prod4.jpg" alt />
+        </div>
+        <div className="text">
+          <a href="#" className="btn">Shop Bath Robes</a>
+        </div>
+      </div>
+      <div className="box">
+        <div className="imgBx">
+          <img src="images/prod1.jpg" alt />
+        </div>
+        <div className="text">
+          <a href="#" className="btn">Shop Custom Linen</a>
+        </div>
+      </div>
+      <div className="box">
+        <div className="imgBx">
+          <img src="images/prod2.jpg" alt />
+        </div>
+        <div className="text">
+          <a href="#" className="btn">Special</a>
+        </div>
+      </div>
+      <div className="title">
+        <a href="#" className="btn">View All</a>
+      </div>
     </div>
+  </section>
+               
+    
   );
 }
 
