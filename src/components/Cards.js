@@ -5,10 +5,22 @@ import './Styling/flavor.css';
 
 function Cards() {
   return (
-            
+    <>
+    <section className="explore" id="explore">
+  <div className="row">
+    <div className="col50">
+      <p>
+        Our premuim products have got the finest quality cotton
+        can create, an exquisite lightweight textile that is both soft
+        and crisp-guaranted to give you a wonderful night's sleep.
+      </p>
+    </div>
+  </div>
+</section>
+      
     <section className="menu" id="menu">
     <div className="title">
-      <h2 className="titleText">Product Selection</h2>
+      <h2 className="titleText"> </h2>
     </div>
     <div className="content">
       <div className="box">
@@ -64,6 +76,7 @@ function Cards() {
       </div>
     </div>
   </section>
+  </>
                
     
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styling/Button.css';
+import './Styling/flavor.css';
 import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
